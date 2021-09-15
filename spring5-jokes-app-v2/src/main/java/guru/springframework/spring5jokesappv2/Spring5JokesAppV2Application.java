@@ -1,4 +1,4 @@
-package guru.springframework.sfgpetclinic;
+package guru.springframework.spring5jokesappv2;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
