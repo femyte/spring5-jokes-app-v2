@@ -1,17 +1,16 @@
 package guru.springframework.spring5jokesappv2.services;
 
-import org.springframework.stereotype.Service;
 
 import guru.springframework.norris.chuck.ChuckNorrisQuotes;
 
-@Service
+
 public class JokeServiceImpl implements JokeService {
 	
 	private final ChuckNorrisQuotes chuckNorrisQuotes;
 
-	public JokeServiceImpl() {
+	public JokeServiceImpl(ChuckNorrisQuotes chuckNorrisQuotes) {
 		// TODO Auto-generated constructor stub
-		this.chuckNorrisQuotes = new ChuckNorrisQuotes();
+		this.chuckNorrisQuotes = chuckNorrisQuotes;
 	}
 
 	@Override
